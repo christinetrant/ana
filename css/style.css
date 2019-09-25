@@ -189,8 +189,9 @@ a {
     height: 300px; } }
 
 /* Navbar */
+.site-navbar-top { background: #772d8d !important; }
 .site-navbar-wrap {
-  background: #772d8d !important;
+  background: #1a201a !important;
   position: relative;
   z-index: 99;
   width: 100%; }
