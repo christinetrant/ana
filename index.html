@@ -505,54 +505,61 @@
     
     
     
-      <!-- ======================== -->
-    <!-- ===   CONTACT   === -->
-    <!-- ======================== -->
-    
-    
-    
-   <section class="ftco-appointment">
-			<div class="overlay"></div>
+<!-- ======================== -->
+<!-- ===     CONTACT      === -->
+<!-- ======================== -->  
+   <section class="ftco-appointment site-section">
+	<div class="overlay"></div>
     	<div class="container-wrap">
     		<div class="row no-gutters d-md-flex align-items-center">
+    		
     			<div class="col-md-6 d-flex align-self-stretch">
-    				<div id="map"></div>
+    				<div id="map"></div>		
     			</div>
+    			
 	    		<div class="col-md-6 appointment ftco-animate">
 	    			<h3 class="mb-3">Contact</h3>
 	    			<form action="#" class="appointment-form">
 	    				<div class="d-md-flex">
 		    				<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="First Name">
+		    					<input type="text" class="form-control" placeholder="Name">
 		    				</div>
+		    				<!--
 		    				<div class="form-group ml-md-4">
 		    					<input type="text" class="form-control" placeholder="Last Name">
 		    				</div>
+		    				-->
 	    				</div>
 	    				<div class="d-md-flex">
+		    				<!--
 		    				<div class="form-group">
-		    					<div class="input-wrap">
-		            		<div class="icon"><span class="ion-md-calendar"></span></div>
-		            		<input type="text" class="form-control appointment_date" placeholder="Date">
-	            		</div>
+		    				  <div class="input-wrap">
+		            		    <div class="icon"><span class="ion-md-calendar"></span></div>
+		            		    <input type="text" class="form-control" placeholder="Phone">
+	            		      </div>
 		    				</div>
 		    				<div class="form-group ml-md-4">
 		    					<div class="input-wrap">
-		            		<div class="icon"><span class="ion-ios-clock"></span></div>
-		            		<input type="text" class="form-control appointment_time" placeholder="Time">
-	            		</div>
+		            		      <div class="icon"><span class="ion-ios-clock"></span></div>
+		                    		<input type="text" class="form-control" placeholder="Email">
+	            		      </div>
 		    				</div>
 		    				<div class="form-group ml-md-4">
-		    					<input type="text" class="form-control" placeholder="Phone">
+		    					<input type="text" class="form-control" placeholder="Email">
+		    				</div>
+		    				-->
+		    				
+		    				<div class="form-group">
+		    					<input type="email" class="form-control" placeholder="Email">
 		    				</div>
 	    				</div>
 	    				<div class="d-md-flex">
-	    					<div class="form-group">
-		              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
-		            </div>
-		            <div class="form-group ml-md-4">
-		              <input type="submit" value="Appointment" class="btn btn-primary py-3 px-4">
-		            </div>
+	    				  <div class="form-group">
+		                    <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+		                  </div>
+        		          <div class="form-group ml-md-4">
+		                    <input type="submit" value="Submit" class="btn btn-primary py-3 px-4">
+		                  </div>
 	    				</div>
 	    			</form>
 	    		</div>    			
@@ -583,7 +590,9 @@
     
     
     
-    
+<!-- ======================== -->
+<!-- ===      FOOTER      === -->
+<!-- ======================== -->    
 
     <footer class="site-footer">
       <div class="container">
@@ -609,7 +618,7 @@
               <div class="col-md-6">
                 <p><strong>Boxing Babes:</strong> <br> The Bridge (women only gym) <br> 73-81 Southwark Bridge Rd <br> London, SE1 0NQ </p> 
 
-                <p><strong>Boom Box:</strong> <br> Lounge 55 East <br> 63 East Street <br> SE17 2DJ </p>   
+                <p><strong>BoomBox:</strong> <br> The Lounge, 55 East <br> 53-55 East Street <br> SE17 2DN </p>    
               </div>
               <div class="col-md-6">
                 Tel: <a href="tel://07951445564">079 5144 5564</a><br>
@@ -623,7 +632,8 @@
           <div class="col-md-12">
             <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+            <script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
@@ -644,6 +654,11 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>
+  
+  
+  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
 
   <script src="js/main.js"></script>
     

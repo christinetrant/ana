@@ -1285,8 +1285,23 @@ a {
 /*    .ftco-animate {
   opacity: 0;
   visibility: hidden; }*/
+img {
+  vertical-align: middle;
+  border-style: none; }
+  
+  .img-fluid {
+  max-width: 80%;
+  height: auto; }
 
-.gallery-img {
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto; }
+
+img, .gallery-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; 
@@ -1377,4 +1392,91 @@ a {
 
 .appointment-form textarea.form-control {
   height: inherit !important; }
- 
+
+
+.form-control {
+  height: 58px !important;
+  background: transparent !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 18px;
+  border-radius: 0px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  padding-right: 0;
+  padding-left: 0; }
+  .form-control:focus, .form-control:active {
+    border-color: #e5ce48; }
+
+textarea.form-control {
+  height: inherit !important; }
+
+
+
+
+#map {
+  width: 80%;
+  margin-left: 10%;}
+  #map.map {
+    height: 400px; }
+  @media (max-width: 991.98px) {
+    #map {
+      height: 300px; } }
+
+
+
+/* Gallery */
+.photography-entry {
+  height: 280px;
+  display: block;
+  z-index: 0;
+  position: relative; }
+  .photography-entry .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #000000;
+    opacity: 0;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    @media (max-width: 767.98px) {
+      .photography-entry .overlay {
+        opacity: .3; } }
+  .photography-entry .text {
+    opacity: 0;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .photography-entry .text h3 {
+      color: #fff;
+      font-size: 20px; }
+    .photography-entry .text span.tag {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: rgba(255, 255, 255, 0.8); }
+    @media (max-width: 767.98px) {
+      .photography-entry .text {
+        opacity: 1; } }
+  .photography-entry:hover .overlay, .photography-entry:focus .overlay {
+    opacity: .7; }
+  .photography-entry:hover .text, .photography-entry:focus .text {
+    opacity: 1; }
+
+.image-popup {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+
+
+
