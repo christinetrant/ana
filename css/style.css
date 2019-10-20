@@ -1,13 +1,14 @@
 /* Base */
+html {
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1.7;
   color: #4d4d4d;
   font-weight: 400;
   font-size: 0.9rem;
-  /* font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
-  /* font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-family: 'Raleway', sans-serif;
-  }
+}
 
 ::-moz-selection {
   background: #000;
@@ -1037,7 +1038,7 @@ a {
       top: -.3rem;
       font-family: 'icomoon';
       font-size: 1.1rem;
-      content: "\e5ca"; }
+      content: "\e315"; }
 
 .half-sm .text, .half-sm .text h2, .half-sm .text small {
   -webkit-transition: .3s all ease-in-out;
