@@ -8,6 +8,8 @@ Bootstrap, HTML, CSS
 
 [Live Site][2]
 
+![Screenshot](ana.png)
+
 [0]: https://colorlib.com/wp/template/ironmuscle/
 [1]:https://christinetrant.github.io/ana/
-[2]:http://femaleboxingcoach.com/
+[2]:https://femaleboxingcoach.com/
